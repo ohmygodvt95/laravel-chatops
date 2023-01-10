@@ -7,6 +7,6 @@ return [
         ],
     ],
     'endpoints' => [
-        'message' => 'https://chat.runsystem.vn/api/v4/posts'
+        'message' => env('CO_BASE_URL').'/posts'
     ]
 ];
